@@ -5,22 +5,44 @@
   background-color: aqua;
   width: 100%;
   border: 2px solid firebrick;
-  padding: 2px;
 }
 .heading h1 {
   font-style: italic;
   border: 1px solid navy;
   border-radius: 30%;
   padding-right: 3px;
+  margin-left: 5px;
 }
 .heading > h2 {
   font-style: oblique;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-display: initial;
   border: 2px solid gray;
-  margin-left: 2px;
+  margin-left: 5px;
   width: 100%;
   height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.heading h3 {
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-variant: small-caps;
+  border: 2px solid coral;
+  margin-left: 5px;
+  text-decoration: double;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading>h4 {
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid forestgreen;
+  margin-left: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-image: url("./assets/imgs/background_img.webp");
+  border-image-width: 50%;
+  border-image-repeat:unset;
 }
